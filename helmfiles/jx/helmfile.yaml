@@ -62,5 +62,11 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
   - jx-values.yaml
+- chart: jxgh/jxboot-helmfile-resources
+  name: jxboot-helmfile-resources
+  values:
+  - ../../versionStream/charts/jx3/jxboot-helmfile-resources/values.yaml.gotmpl
+  - jx-values.yaml
+  - jxboot-helmfile-resources-values.yaml    
 templates: {}
 renderedvalues: {}
